@@ -5,3 +5,5 @@ start.spring.io settings chosen:
 
 when creating files do it under ali.trabi.juniorjob
 double press shift to open up search
+alt + insert to generate constructor and setters/getters etc
+ctrl + shift + / to comment out a block
