@@ -8,14 +8,13 @@ import java.time.LocalDateTime;
 @Table
 public class Login {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String username;
     private String password;
     private LocalDateTime last_login_date;
 
-    public Login(Integer id) {
-        this.id = id;
+    public Login() {
     }
 
     public Login(Integer id, String username, String password, LocalDateTime last_login_date) {
